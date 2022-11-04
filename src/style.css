@@ -8,7 +8,7 @@ body{
 section{
     height: 100%;
     background-color: white;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
 }
 .main-section{
     background-color: #1c1d25;
@@ -98,12 +98,13 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px;
+    padding: 0 100px;
     min-height: 60vh;
 }
 .profile-container{
     display: flex;
     align-items: center;
+    padding: 100px
 }
 .profile{
     width: 300px;
@@ -112,6 +113,7 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 50px;
 }
 .project-card{
     max-width: 700px;
@@ -133,10 +135,13 @@ hr{
 }
 footer{
     display: flex;
+    color: white;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     background-color: #1c1d25;
     padding: 30px;
+    align-items: center;
 }
 .form-control{
     width:600px;
@@ -203,6 +208,9 @@ input{
         background-color: #2b2c38;
     }
     .logo{
+        display: none;
+    }
+    .profile{
         display: none;
     }
 }
